@@ -1,0 +1,448 @@
+
+
+.nav-item{
+    padding: 0px 16px;
+}
+
+.nav-link{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.nav-link:hover{
+    color: #FFFFFF;
+    background: #E9A401;
+    border-radius: 6px;
+}
+
+header{
+    background-image: url(photo/Hexagon.svg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.header-text{
+    margin-top: 150px;
+}
+
+.text h1{
+    color: #FFFFFF;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.text a{
+    text-decoration: none;
+    color: #E9A401;
+
+}
+
+.text h5{
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+.btn-1{
+    padding: 16px 43px;
+    background: #E9A401;
+    color: #FFFFFF;
+    border: none;
+    font-weight: 500;
+    clip-path: polygon(15% 0, 94% 0, 85% 100%, 2% 100%);
+}
+
+
+.btn-2{
+    padding: 16px 43px;
+    background: #E9A401;
+    color: #FFFFFF;
+    border: none;
+    font-weight: 500;
+    clip-path: polygon(15% 0, 94% 0, 85% 100%, 2% 100%);
+    margin-top: 20px;
+    transition: 0.8s;
+}
+
+.btn-2:hovere{
+    color: #000;
+}
+.about-container{
+    background: #1D191F;
+    height: 100vh;
+}
+
+.HEADER-TEXT{
+    color: #FFFFFF;
+ 
+}
+
+.HEADER-TEXT h1{
+    position: relative;
+    top: 70px;
+    font-size: 55px;
+    font-weight: 800;
+}
+
+
+
+.HEADER-TEXT img{
+    position: relative;
+     left: 493px;
+     top: 70px;
+
+}
+.col-lg-6{
+
+    margin-top: 160px;
+    overflow: hidden;
+}
+
+
+.about-text p{
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: 600;
+
+}
+
+.imgoj img{
+    object-fit: cover;
+    position: relative;
+    left: -10px;
+    border-radius: 10px;
+}
+
+.col-lg-4{
+    margin-top: 120px;
+    position: relative;
+    left: 70px;
+
+}
+
+
+.CARDBG{
+    background: #56445f;
+    height: 120vh;
+}
+
+.HEADER-TEXT h2{
+    position: relative;
+    top: 90px;
+
+}
+
+.top-text{
+    position: relative;
+    top: 110px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.col-lg-3{
+ 
+}
+
+.card-icon i{
+    color: #E9A401;
+    font-size: 39px;
+    margin-top: 10px;
+}
+
+.card-title h3{
+    color: #FFFFFF;
+    font-size: 37px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.card-title p{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+
+.col-lg-3{
+    margin-top: 170px;
+    position: relative;
+    left: 70px;
+    background: #1C222A;
+    border-radius: 10px;
+    padding: 10px 20px;
+    transition: 0.5s;
+}
+
+
+.col-lg-3:hover{
+    transform: translateY(-20px);
+}
+
+
+.work{
+    background: #1D191F;
+    height: 175vh;
+}
+.card-title{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.card-text{
+    font-weight: 800;
+    color: #E9A401;
+}
+
+
+.row-cols-md-2{
+    position: relative;
+    top: 150px;
+    left: 70px;
+}
+
+.for-items{
+    margin-left: -190px;
+  
+}
+
+
+.nocolor{
+    background: none;
+    margin-top: 300px;
+
+}
+
+.nocolor img{
+    border-radius: 18px;
+    transition: 0.5s;
+}
+
+.nocolor img:hover{
+    transform: scale(1.1);
+}
+
+
+
+.teem{
+    background: #56445f;
+    height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card-client {
+    background: #2cb5a0;
+    width: 13rem;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 4px solid #7cdacc;
+    box-shadow: 0 6px 10px rgba(207, 212, 222, 1);
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    transition: all 0.3s ease;
+  }
+  
+  .card-client:hover {
+    transform: translateY(-10px);
+  }
+  
+  .user-picture {
+    overflow: hidden;
+    object-fit: cover;
+    width: 5rem;
+    height: 5rem;
+    border: 4px solid #7cdacc;
+    border-radius: 999px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  
+  .user-picture svg {
+    width: 2.5rem;
+    fill: currentColor;
+  }
+  
+  .name-client {
+    margin: 0;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  
+  .name-client span {
+    display: block;
+    font-weight: 200;
+    font-size: 16px;
+  }
+  
+  .social-media:before {
+    content: " ";
+    display: block;
+    width: 100%;
+    height: 2px;
+    margin: 20px 0;
+    background: #7cdacc;
+  }
+  
+  .social-media a {
+    position: relative;
+    margin-right: 15px;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .social-media a:last-child {
+    margin-right: 0;
+  }
+  
+  .social-media a svg {
+    width: 1.1rem;
+    fill: currentColor;
+  }
+  
+  /*-- Tooltip Social Media --*/
+  .tooltip-social {
+    background: #262626;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    padding: 0.5rem 0.4rem;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    opacity: 0;
+    pointer-events: none;
+    transform: translate(-50%, -90%);
+    transition: all 0.2s ease;
+    z-index: 1;
+  }
+  
+  .tooltip-social:after {
+    content: " ";
+    position: absolute;
+    bottom: 1px;
+    left: 50%;
+    border: solid;
+    border-width: 10px 10px 0 10px;
+    border-color: transparent;
+    transform: translate(-50%, 100%);
+  }
+  
+  .social-media a .tooltip-social:after {
+    border-top-color: #262626;
+  }
+  
+  .social-media a:hover .tooltip-social {
+    opacity: 1;
+    transform: translate(-50%, -130%);
+  }
+
+
+
+
+  .col-lg-4{
+   margin-top: 160px;
+  }
+
+
+
+  .social-icon i{
+    color: #E9A401;
+    font-size: 24px;
+    padding: 1px 13px;
+    margin-top: 18px;
+    transition: 0.6s;
+  }
+
+  .social-icon i:hover{
+    color: #FFFFFF;
+    
+  }
+  .col-lg-4 img{
+    transition: 0.5s;
+  }
+  .col-lg-4 img:hover{
+    transform: scale(1.1);
+
+  }
+
+  .text-ariea{
+    background: #1C222A;
+    height: 50vh;
+  }
+
+  .last-text{
+    position: relative;
+    top: 30px;
+    font-size: 17px;
+    font-weight: 600;
+  }
+
+
+  
+
+
+  .footer{
+    background: #473b4d;
+    height: 15vh;
+  }
+
+  .footer-btn{
+    padding: 16px 43px;
+    background: #E9A401;
+    position: relative;
+    left: 470px;
+    color: #FFFFFF;
+    border: none;
+    font-weight: 500;
+    clip-path: polygon(15% 0, 94% 0, 85% 100%, 2% 100%);
+    margin-top: 35px;
+    transition: 0.8s;
+
+  }
+
+  .footer-btn:hover{
+    color: #000;
+  }
+
+
+  .footer-text h5{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 30px;
+  }
+
+  .footer-text a{
+    color: #E9A401;
+    text-decoration: none;
+  }
+
+  .footer-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
